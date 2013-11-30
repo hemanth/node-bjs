@@ -1,0 +1,5 @@
+#!/usr/bin/evn node
+bjs = require('../lib/bjs');
+bjs.next(function(event){
+	console.log(event);
+});

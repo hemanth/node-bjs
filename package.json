@@ -1,0 +1,33 @@
+{
+  "name": "bjs",
+  "version": "0.0.1",
+  "main": "lib/bjs.js",
+  "description": "Next BangaloreJS event on CLI.",
+  "homepage": "http://h3manth.com",
+  "bugs": "https://github.com/hemanth/bjs/issues",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemanth/bjs"
+  },
+  "bin": {
+    "bjs": "bin/bjs"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  },
+  "dependencies": {
+    "nom": "0.0.3"
+  }
+}
