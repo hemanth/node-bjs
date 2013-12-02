@@ -1,4 +1,4 @@
-#!/usr/bin/evn node
+#!/usr/bin/env node
 bjs = require('../lib/bjs');
 bjs.next(function(event){
 	console.log(event);
