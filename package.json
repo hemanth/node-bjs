@@ -1,6 +1,6 @@
 {
   "name": "bjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/bjs.js",
   "description": "Next BangaloreJS event on CLI.",
   "homepage": "http://h3manth.com",
