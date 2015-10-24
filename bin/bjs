@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 bjs = require('../lib/bjs');
-bjs.next(function(event){
-	console.log(`Next meetup is at ${event.where} on ${new Date(event.when)}.`);
+bjs.next(function(error,event){
+    console.log(error)
+    if(!error) {
+        console.log(`Next meetup is at ${event.where} on ${new Date(event.when)}.`);
+    } else {
+        console.log('No events :(');
+    }
 });

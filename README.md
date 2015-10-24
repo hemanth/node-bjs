@@ -15,7 +15,7 @@ In node script :
 
 ```js
 bjs = require('bjs');
-bjs.next(function(event){
+bjs.next(function(error, event){
 	console.log(event);
 });
 ```
